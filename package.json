@@ -16,6 +16,7 @@
     "axios": "^0.18.0",
     "element-ui": "^2.4.11",
     "vue": "^2.5.2",
+    "vue-data-tables": "^3.4.4",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -59,10 +60,12 @@
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
+    "vue-easytable": "^1.7.1",
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
+    "vuetable-2": "^2.0.0-beta.4",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",

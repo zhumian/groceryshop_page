@@ -9,6 +9,11 @@ import 'element-ui/lib/theme-chalk/reset.css'
 import './styles/index.scss'
 import {get, post} from './util/http'
 
+import VueDataTables from 'vue-data-tables'
+Vue.use(VueDataTables)
+
+
+
 Vue.prototype.$post = post;
 Vue.prototype.$get = get;
 

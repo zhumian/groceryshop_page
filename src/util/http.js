@@ -1,6 +1,6 @@
 import axios from 'axios'
 axios.defaults.baseURL = 'http://localhost:8080/groceryshop';
-axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+axios.defaults.headers['Content-Type'] = 'application/json';
 
 export function get(url, params={}) {
   return new Promise((resolve, reject) => {

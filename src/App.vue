@@ -16,7 +16,7 @@ export default {
 
   },
   created : function () {
-    this.$router.push("/")
+    this.$router.push("/index")
   }
 
 
